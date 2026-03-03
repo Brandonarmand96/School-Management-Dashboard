@@ -3,7 +3,7 @@ import { Search, Bell, Download, ArrowLeft } from "lucide-react"
 
 export default function DashboardHeader() {
   return (
-    <header className="bg-white border-b border-gray-200 py-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+    <header className="bg-white border-b border-gray-200 py-4 px-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
       <div>
         <h2 className="text-lg font-bold text-[#1a1a2e]">Principal Dashboard</h2>
         <p className="text-sm text-[#6b7280]">
