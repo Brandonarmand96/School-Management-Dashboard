@@ -56,7 +56,7 @@ export default function StatsCards() {
           className={`rounded-xl border-t-4 ${stat.borderColor} bg-white p-5 shadow-sm`}
         >
           <div className="flex items-start justify-between h-7">
-            <p className="text-xs font-bold uppercase tracking-wide text-[#1e40af]">
+            <p className="text-xs font-bold uppercase tracking-wide text-[#6b7280]">
               {stat.label}
             </p>
             {stat.icon && <span>{stat.icon}</span>}
