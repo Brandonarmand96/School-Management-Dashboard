@@ -97,7 +97,7 @@ export default function Sidebar() {
         </button>
 
         {/* Brand */}
-        <div className="px-5 pt-6 pb-2">
+        <div className="px-5 pt-6 pb-2 border-b border-blue-400">
           <h1 className="text-xl font-bold text-white">School Core</h1>
           <span className="mt-1 inline-block rounded-full bg-[#2b55c4] px-3 py-0.5 text-xs font-medium text-white">
             Tier 2 &middot; Principal
@@ -129,7 +129,7 @@ export default function Sidebar() {
         </nav>
 
         {/* User profile */}
-        <div className="border-t border-blue-700 px-2 py-2">
+        <div className="border-t border-blue-400 px-2 py-2">
           <div className="flex bg-[#2b55c4] py-2 px-2 rounded-lg items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#537df1] text-sm font-bold text-white">
               AP
