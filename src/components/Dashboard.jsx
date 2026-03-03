@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from './Header'
-import StatsCards from './StatsCards'
+import StatsCards from './StatsCard'
 import AttendanceChart from './AttendanceChart'
 import AlertsPanel from './AlertsPanel'
 
 const Dashboard = () => {
   return (
-    <div className="flex-1 flex flex-col overflow-hidden">
+    <div className="flex-1 flex flex-col overflow-hidden bg-blue-50">
       <Header />
       <main className="flex-1 overflow-y-auto p-6">
         <div className="mb-8">
